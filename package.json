@@ -1,0 +1,36 @@
+{
+  "name": "operator",
+  "version": "1.0.0",
+  "description": "A API do operador intermediará a comunicação entre o vendedor e a bandeira do cartão de crédito.",
+  "main": "server.js",
+  "authors": [
+    "Ariel Sales de Oliveira Sobreira",
+    "Matheus Maximiano de Melo Vieira"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "private": false,
+  "apidoc": {
+    "title": "Documentação da API de Operadores",
+    "url": "http://localhost:3333/ws-operators/v1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "yup": "^0.29.0"
+  },
+  "devDependencies": {
+    "apidoc": "^0.22.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
+    "sucrase": "^3.14.0"
+  }
+}
