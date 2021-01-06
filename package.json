@@ -18,7 +18,7 @@
     "url": "http://localhost:3333/ws-operators/v1"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "yup": "^0.29.0"
   },
